@@ -6,9 +6,9 @@ on:
   ## Remove the "#" sign from the beginning of the line below to get automated builds on push (code changes in your repository)
   #push:
   
-  schedule:
-    - cron: '0 04 * * *' # Checks for updates at 04:00 UTC every day
-    - cron: '0 04 1 * *' # Builds the app on the 1th every month
+  # schedule:
+    # - cron: '0 04 * * *' # Checks for updates at 04:00 UTC every day
+    # - cron: '0 04 1 * *' # Builds the app on the 1th every month
 
 env:
   UPSTREAM_REPO: JohanDegraeve/xdripswift
